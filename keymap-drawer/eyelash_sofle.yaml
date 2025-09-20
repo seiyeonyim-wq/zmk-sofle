@@ -53,7 +53,7 @@ layers:
   - {t: ., h: '$$mdi:arrow-left-bold$$'}
   - {t: /, h: '$$mdi:arrow-down-bold$$', s: '?'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:volume-off$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
