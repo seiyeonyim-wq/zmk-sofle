@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: layer1, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
