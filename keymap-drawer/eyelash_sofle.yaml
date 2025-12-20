@@ -91,7 +91,7 @@ layers:
   - {t: '9', s: (}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', h: '=', s: _}
   - {t: KP NUMLOCK, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - RGB OFF
   - RGB ON
   - RGB EFF
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&btcyc'
   - $$mdi:mouse-left-click-outline$$
-  - {t: layer1, h: toggle}
+  - {t: 'Alt+$$mdi:keyboard-return$$', h: PRINTSCREEN}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -144,7 +144,7 @@ layers:
   - {t: '9', h: '[', s: (}
   - {t: '0', h: ']', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', type: held}
+  - {t: '$$mdi:keyboard-tab$$', h: LAYER0, type: held}
   - Q
   - W
   - E
@@ -190,13 +190,15 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&btcyc'
   - $$mdi:mouse-left-click-outline$$
-  - {t: layer2, h: toggle}
+  - {t: 'Alt+$$mdi:keyboard-return$$', h: PRINTSCREEN}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
 - p: [39, 59]
   k: {t: layer1, h: toggle}
+- p: [39, 60]
+  k: {t: layer2, h: toggle}
