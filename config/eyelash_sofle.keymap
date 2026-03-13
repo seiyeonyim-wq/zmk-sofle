@@ -73,7 +73,7 @@
         compatible = "zmk,combos";
 
         to1 {
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
             key-positions = <39 57>;
         };
 
