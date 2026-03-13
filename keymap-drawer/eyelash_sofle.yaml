@@ -197,6 +197,6 @@ layers:
   - .
 combos:
 - p: [39, 57]
-  k: {t: numpad, h: toggle}
+  k: {t: multi, h: toggle}
 - p: [51, 59]
   k: {t: numpad, h: toggle}
